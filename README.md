@@ -63,7 +63,7 @@ python3.10 -m venv myenv
 
 For Windows
 ```
-myenv/Scripts/activate
+myenv/scripts/activate
 ```
 
 For Linux
@@ -88,12 +88,6 @@ python3 make_per_patient_json.py
 ```
 
 ## Deactivate virtual environment and wrap up
-For Windows
-```
-deactivate
-```
-
-For Linux
 ```
 deactivate
 ```
