@@ -53,7 +53,7 @@ cd ..
 ```
 
 ## 8) Create a virtual environment (myenv)
-You may rename the virtual environment as anything you like.
+You may rename the virtual environment {myenv} to your choice.
 
 For Windows
 ```
@@ -94,8 +94,8 @@ python3 make_per_patient_json.py
 ```
 
 ## 12) Run the Models on Zero Shot Prompt
-# We have used 3 models for our work. You can download any models from Ollama.
-# model_name = {qwen2.5vl, blaifa/InternVL3, anas/video-llava:test}
+- We have used 3 models for our work. You can download any models from Ollama.
+- model_name = {qwen2.5vl, blaifa/InternVL3, anas/video-llava:test}
 For Linux
 ```
 python3 zeroshot_risk.py \
@@ -105,7 +105,7 @@ python3 zeroshot_risk.py \
   --timeout 600 \
   --num -1
 ```
-# For Windows, write "python" instead of "python3"
+For Windows, write "python" instead of "python3"
 
 ## 13) Run the models on Few Shot Prompt
 ```
